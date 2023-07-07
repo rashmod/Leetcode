@@ -15,10 +15,10 @@ class Solution(object):
                     nums[j], nums[j + 1] = nums[j + 1], nums[j]
 
 
-# Brute force (TLE)
+# Optimal
 # space complexity: O(1)
-# time complexity: O(n^2)
-class Solution(object):
+# time complexity: O(n)
+class Solution2(object):
     def moveZeroes(self, nums):
         l, r = 0, 0
         while r < len(nums):
