@@ -1,4 +1,4 @@
-# Array Hash-table
+# Two-pointer String
 from typing import List
 
 # Optimal
