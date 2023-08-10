@@ -2,8 +2,8 @@
 from typing import List
 
 # Brute force
-# space complexity: O(nlogn)
-# time complexity: O(nlogn)
+# space complexity: O(nlog n)
+# time complexity: O(nlog n)
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
         for i in range(len(nums)):

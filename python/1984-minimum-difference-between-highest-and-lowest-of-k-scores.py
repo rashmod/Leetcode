@@ -3,8 +3,8 @@ from typing import List
 
 
 # Optimal
-# space complexity: O(nlogn + n) (for sorting: nlogn) + (if new array is created: n)
-# time complexity: O(nlogn + n) (for sorting: nlogn)
+# space complexity: O(nlog n + n) (for sorting: nlog n) + (if new array is created: n)
+# time complexity: O(nlog n + n) (for sorting: nlog n)
 class Solution:
     def minimumDifference(self, nums: List[int], k: int) -> int:
         # if the original array should not be mutated
