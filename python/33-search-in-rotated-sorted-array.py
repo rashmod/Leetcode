@@ -1,4 +1,4 @@
-# Array Binary-Search
+# Array Binary-search
 from typing import List
 
 # Optimal
